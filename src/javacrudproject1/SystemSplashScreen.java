@@ -123,11 +123,11 @@ public class SystemSplashScreen extends javax.swing.JFrame {
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("EVOTECH EDUCATION STUDENT MANAGEMENT SYSTEM");
 
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\LENOVO USER\\Downloads\\School.png")); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagesfile/School.png"))); // NOI18N
 
         jPanel2.setBackground(new java.awt.Color(102, 102, 255));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\LENOVO USER\\Downloads\\Evotech (1).png")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagesfile/Evotech (1).png"))); // NOI18N
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);

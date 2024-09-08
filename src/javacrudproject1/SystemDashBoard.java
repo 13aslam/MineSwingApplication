@@ -77,13 +77,13 @@ public class SystemDashBoard extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(102, 102, 255));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\LENOVO USER\\Downloads\\Evotech.png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagesfile/Evotech.png"))); // NOI18N
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
         jLabel2.setText("Welcome to JAVA CRUD System");
 
         Session.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
-        Session.setIcon(new javax.swing.ImageIcon("C:\\Users\\LENOVO USER\\Downloads\\profile (2).png")); // NOI18N
+        Session.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagesfile/profile (2).png"))); // NOI18N
         Session.setToolTipText("");
         Session.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
             public void mouseMoved(java.awt.event.MouseEvent evt) {
@@ -97,7 +97,7 @@ public class SystemDashBoard extends javax.swing.JFrame {
         });
 
         jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\LENOVO USER\\Downloads\\icons8-logout-16.png")); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagesfile/icons8-logout-16.png"))); // NOI18N
         jLabel4.setText("Logout ");
         jLabel4.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -147,7 +147,7 @@ public class SystemDashBoard extends javax.swing.JFrame {
         jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
         jLabel5.setText("Menu ");
 
-        jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Users\\LENOVO USER\\Downloads\\home (1).png")); // NOI18N
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagesfile/home (1).png"))); // NOI18N
         jLabel6.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel6MouseClicked(evt);
@@ -169,7 +169,7 @@ public class SystemDashBoard extends javax.swing.JFrame {
         jButton2.setBackground(new java.awt.Color(0, 0, 51));
         jButton2.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jButton2.setForeground(new java.awt.Color(255, 255, 255));
-        jButton2.setIcon(new javax.swing.ImageIcon("C:\\Users\\LENOVO USER\\Downloads\\sync (1).png")); // NOI18N
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagesfile/sync (1).png"))); // NOI18N
         jButton2.setText("MANAGE DATA ");
         jButton2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 2));
         jButton2.addActionListener(new java.awt.event.ActionListener() {

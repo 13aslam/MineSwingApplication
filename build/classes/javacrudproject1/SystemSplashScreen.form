@@ -145,7 +145,7 @@
         <Component class="javax.swing.JLabel" name="jLabel4">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\LENOVO USER\Downloads\School.png"/>
+              <Image iconType="3" name="/imagesfile/School.png"/>
             </Property>
           </Properties>
         </Component>
@@ -180,7 +180,7 @@
             <Component class="javax.swing.JLabel" name="jLabel2">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\LENOVO USER\Downloads\Evotech (1).png"/>
+                  <Image iconType="3" name="/imagesfile/Evotech (1).png"/>
                 </Property>
               </Properties>
             </Component>

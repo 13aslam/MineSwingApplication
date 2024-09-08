@@ -59,7 +59,7 @@ public class SystemLogin extends javax.swing.JFrame {
 
         jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\LENOVO USER\\Downloads\\icons8-right-arrow-64 (1).png")); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagesfile/icons8-right-arrow-64 (1).png"))); // NOI18N
         jLabel3.setText("Login");
 
         jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
@@ -75,7 +75,7 @@ public class SystemLogin extends javax.swing.JFrame {
         passwordbox.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
 
         jButton1.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
-        jButton1.setIcon(new javax.swing.ImageIcon("C:\\Users\\LENOVO USER\\Downloads\\profile (1).png")); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagesfile/profile (1).png"))); // NOI18N
         jButton1.setText("LOGIN");
         jButton1.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
             public void mouseMoved(java.awt.event.MouseEvent evt) {
