@@ -104,7 +104,7 @@ public class ManageData extends javax.swing.JInternalFrame {
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\LENOVO USER\\Downloads\\sync (1).png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagesfile/sync (1).png"))); // NOI18N
         jLabel1.setText("Manage Data");
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
@@ -192,7 +192,7 @@ public class ManageData extends javax.swing.JInternalFrame {
 
         jButton1.setBackground(new java.awt.Color(153, 255, 255));
         jButton1.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
-        jButton1.setIcon(new javax.swing.ImageIcon("C:\\Users\\LENOVO USER\\Downloads\\insert (1).png")); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagesfile/insert (1).png"))); // NOI18N
         jButton1.setText("UPDATE DATA");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -209,7 +209,7 @@ public class ManageData extends javax.swing.JInternalFrame {
         error.setForeground(new java.awt.Color(255, 0, 0));
 
         update_img.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        update_img.setIcon(new javax.swing.ImageIcon("C:\\Users\\LENOVO USER\\Downloads\\insert (1).png")); // NOI18N
+        update_img.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagesfile/insert (1).png"))); // NOI18N
         update_img.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 2));
         update_img.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -319,7 +319,7 @@ public class ManageData extends javax.swing.JInternalFrame {
 
         delete.setBackground(new java.awt.Color(153, 255, 255));
         delete.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        delete.setIcon(new javax.swing.ImageIcon("C:\\Users\\LENOVO USER\\Downloads\\wrong (1).png")); // NOI18N
+        delete.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagesfile/wrong (1).png"))); // NOI18N
         delete.setText("Delete Record ");
         delete.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

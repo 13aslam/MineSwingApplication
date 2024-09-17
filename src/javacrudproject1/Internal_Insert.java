@@ -96,7 +96,7 @@ public class Internal_Insert extends javax.swing.JInternalFrame {
 
         jButton1.setBackground(new java.awt.Color(204, 255, 255));
         jButton1.setFont(new java.awt.Font("Segoe UI", 1, 15)); // NOI18N
-        jButton1.setIcon(new javax.swing.ImageIcon("C:\\Users\\LENOVO USER\\Downloads\\insert (1).png")); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagesfile/insert (1).png"))); // NOI18N
         jButton1.setText("INSERT DATA");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -105,7 +105,7 @@ public class Internal_Insert extends javax.swing.JInternalFrame {
         });
 
         upload.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        upload.setIcon(new javax.swing.ImageIcon("C:\\Users\\LENOVO USER\\Downloads\\insert (1).png")); // NOI18N
+        upload.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagesfile/insert (1).png"))); // NOI18N
         upload.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 2));
         upload.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -139,11 +139,9 @@ public class Internal_Insert extends javax.swing.JInternalFrame {
                             .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(26, 26, 26)
                         .addGroup(mainpanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(mainpanelLayout.createSequentialGroup()
-                                .addGroup(mainpanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                    .addComponent(insert_mobile, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 164, Short.MAX_VALUE)
-                                    .addComponent(insert_email, javax.swing.GroupLayout.Alignment.LEADING))
-                                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addGroup(mainpanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                .addComponent(insert_mobile, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 164, Short.MAX_VALUE)
+                                .addComponent(insert_email, javax.swing.GroupLayout.Alignment.LEADING))
                             .addGroup(mainpanelLayout.createSequentialGroup()
                                 .addGroup(mainpanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(insert_name, javax.swing.GroupLayout.PREFERRED_SIZE, 164, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -155,7 +153,8 @@ public class Internal_Insert extends javax.swing.JInternalFrame {
                                     .addComponent(pathlbl, javax.swing.GroupLayout.PREFERRED_SIZE, 282, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addGroup(mainpanelLayout.createSequentialGroup()
                                         .addGap(74, 74, 74)
-                                        .addComponent(upload, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE))))))
+                                        .addComponent(upload, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(mainpanelLayout.createSequentialGroup()
                         .addGroup(mainpanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(error, javax.swing.GroupLayout.PREFERRED_SIZE, 316, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -202,7 +201,7 @@ public class Internal_Insert extends javax.swing.JInternalFrame {
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\LENOVO USER\\OneDrive\\Documents\\NetBeansProjects\\JavaCRUDProject1\\src\\javacrudproject1\\insert (1).png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagesfile/insert (1).png"))); // NOI18N
         jLabel1.setText("INSERT DATA");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);

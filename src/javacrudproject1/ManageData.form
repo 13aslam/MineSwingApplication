@@ -78,7 +78,7 @@
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\LENOVO USER\Downloads\sync (1).png"/>
+              <Image iconType="3" name="/imagesfile/sync (1).png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Manage Data"/>
           </Properties>
@@ -368,7 +368,7 @@
                   <Font name="Segoe UI" size="15" style="1"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\LENOVO USER\Downloads\insert (1).png"/>
+                  <Image iconType="3" name="/imagesfile/insert (1).png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="UPDATE DATA"/>
               </Properties>
@@ -413,7 +413,7 @@
               <Properties>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\LENOVO USER\Downloads\insert (1).png"/>
+                  <Image iconType="3" name="/imagesfile/insert (1).png"/>
                 </Property>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                   <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
@@ -459,7 +459,7 @@
               <Font name="Segoe UI" size="18" style="1"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\LENOVO USER\Downloads\wrong (1).png"/>
+              <Image iconType="3" name="/imagesfile/wrong (1).png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Delete Record "/>
           </Properties>
